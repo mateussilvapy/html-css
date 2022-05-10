@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: darkcyan;
+            width: 300px;
+            height: 50px;
+            /*border-width: 20px;
+            border-style: solid;
+            border-color: crimson;*/
+
+            /*subistituir essas linhas de cima por uma unica linha apenas. Veja o exemplo abaixo*/
+
+            border: 20px solid crimson;
+            /*obs: devemos sempre seguir a ordem de sequencia border-width, border-style, border-color */
+
+            /*padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+            padding-left: 50px;*/
+
+            /*padding: 50px 50px 50px 50px;*/
+            /*o mesmo princio vale para o padding.Mas para o paddind devemos seguir uma ordem de sentido horario para os lados. top, right, bottom, left . se os quatro valores forem exatamente iguais, basta informar apenas uma das medidas.*/
+            padding: 50px;
+
+            /*margin-top: 50px;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            margin-left: 20px;
+            margin: auto;*/
+            margin: 50px 20px 50px 20px;
+            margin: auto;
+            
+
+
+            /*width: 20px;
+            height: 20px;
+            outline-width: 20px;
+            outline-style: solid;
+            outline-color: black;*/
+            outline: 20px solid black;
+
+        }
+
+        p {
+            margin-top: 50px;
+        }
+
+        /* para mudar a caracteristica inline-box ou box-level de  um seletor, basta colocar a tag display: e especificar para qual modelo de caixa voce quer mudar.*/
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixas</h1>
+    <p>Os paragrafos tambem são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. vamos ver como tudo isso funciona.</p>
+</body>
+</html>

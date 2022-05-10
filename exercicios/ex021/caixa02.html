@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+            border-radius: 10px;
+        }
+
+        header {
+            width: 200px;
+            background-color: aliceblue;
+            padding: 40px;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+        main {
+            background-color: aliceblue;
+            width: auto;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 0px;
+        }
+
+        footer {
+            background-color: rgb(202, 102, 35);
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: rgb(160, 154, 154);
+            padding: 1px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(71, 71, 71);
+            width: 210px;
+        }
+
+        nav {
+            background-color: rgb(202,102, 35);
+            padding: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+            border-radius: 10px;
+
+        }
+
+        nav > a {
+            color: aliceblue;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a:hover {
+            color: black;
+             text-decoration:underline;
+             background-color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="esportes">
+            <article>
+                <h2>Esportes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus veniam fugiat fuga quaerat mollitia, quos necessitatibus quae, magnam quibusdam dolor aut corporis ex dolorum repellat nulla. Excepturi, cum corrupti.</p>
+                <aside>Artigo do sr.Nestor Barros</aside>
+            </article>
+        </section>
+        <section id="tecnologias">
+            <article>
+                <h2>Tecnologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum, veniam officiis similique quidem delectus ad sequi corporis doloribus dolores iure. Distinctio, consequuntur temporibus tenetur officia sed alias rem facilis!</p>
+            </article>
+        </section>
+        <section id="politica">
+            <article>
+                <h2>Politica</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit neque pariatur ullam nemo eveniet tempora quia! Doloribus et exercitationem quibusdam expedita excepturi fugit fuga illo in. Nihil vero at culpa?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo grupo mtssoft</p>
+    </footer>
+</body>
+</html>
