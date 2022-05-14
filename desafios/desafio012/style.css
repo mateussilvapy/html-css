@@ -63,14 +63,33 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(46, 43, 43);
-    color: white;
+    background-color: rgba(126, 114, 114, 0.151);
+    color: rgb(247, 247, 247);
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.425);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.336);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section#img01 {
+    background-image: url('../desafio012/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../desafio012/imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer {
